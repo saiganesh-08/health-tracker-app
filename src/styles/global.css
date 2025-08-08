@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #a19e90;
+  color: #2e7d32;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-shadow: 0 0 5px #a5d6a7;
+}
+
+.page-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(86, 76, 175, 0.3);
+}
+.glow-heading {
+  font-size: 2rem;
+  color: #2f6e4d;
+  text-shadow: 0 0 5px #9be2b0, 0 0 10px #88d4a3;
+}

@@ -1,0 +1,13 @@
+body {
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f8e9;
+  color: #33691e;
+}
+
+.page-container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  min-height: 80vh;
+}

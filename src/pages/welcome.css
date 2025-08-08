@@ -1,0 +1,25 @@
+.welcome-container {
+  text-align: center;
+  padding-top: 10vh;
+  background: linear-gradient(to right, #e8f5e9, #c8e6c9);
+  height: 100vh;
+  color: #2e7d32;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.start-button {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #66bb6a;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(102, 187, 106, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #388e3c;
+}

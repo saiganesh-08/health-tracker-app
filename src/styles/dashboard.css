@@ -1,0 +1,47 @@
+/* src/styles/dashboard.css */
+.dashboard-container {
+  background: linear-gradient(to bottom right, #e0f2f1, #a5d6a7);
+  min-height: 100vh;
+  padding: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.tab-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.tab-button {
+  background-color: #c8e6c9;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tab-button:hover {
+  background-color: #a5d6a7;
+  color: #1b5e20;
+}
+
+.tab-button.active {
+  background-color: #66bb6a;
+  color: white;
+  font-weight: bold;
+}
+
+.tab-content {
+  background-color: white;
+  border-radius: 30px;
+  max-width: 1000px;
+  margin: auto;
+  padding: auto;
+  padding: 40px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
